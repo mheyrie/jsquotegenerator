@@ -1,0 +1,64 @@
+/* General */
+* {
+    font-family:  "Kode Mono", "Roboto", monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(images/brandi-redd-aJTiW00qqtI-unsplash.jpg) no-repeat center center/ cover;
+}
+
+.container{
+    width: 500px;
+    height: 450px;
+}
+
+.heading{
+    background-color: #6d5349;
+    color: #fff;
+    padding: 5px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 7px;
+}
+
+.content{
+    width: 100%;
+    background-color: #fff;
+    height: 350px;
+    padding: 30px;
+    box-shadow: 0 0 12px;
+}
+
+.quote{
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.author{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: #953109;
+    margin-top: 50px;
+    text-decoration-line: underline;
+}
+
+.btn-area button{
+    color: #fff;
+    background-color: #9a3706;
+    font-size: medium;
+    padding: 8px;
+    margin-top: 35px;
+    border-radius: 8px;
+}
+
+.btn-area button:active{
+    background-color: rgb(9, 20, 24);
+}
